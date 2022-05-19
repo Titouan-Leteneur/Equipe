@@ -1,0 +1,135 @@
+body
+{
+	display: block;
+	size: 1200px;
+	background-color : #6ba5c7;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	border-style: dashed;
+}
+
+/* head */
+
+.bloc_entete
+{
+	/*position: fixed;*/
+	right: 0;
+	left:0;
+	top: 10px;
+
+	display: flex;
+	justify-content: space-around;
+
+	max-width: 1200px;
+	margin: auto;
+
+	background-color : #142b5d;
+}
+
+.logo_entete
+{
+	border:none;
+	border-radius:10px;
+	max-width: 120px;
+	margin-left: 10px;
+}
+
+.logo_entete img
+{
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.logo_entete img:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+.bloc_entete a
+{
+	color: #142b5d;
+	text-decoration: none;
+}
+
+.lienpageListeM, .lienpageListeE, .lienpageListeJ
+{
+	height: 30px;
+	width: 120px;
+
+	margin:  auto;
+	padding-top: 10px;
+
+	border: none;
+	border-radius: 10px;
+
+	text-align: center;
+
+	color: #142b5d;
+	background-color : white;
+}
+
+.lienpageListeM:hover, .lienpageListeE:hover, .lienpageListeJ:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+.stats_base
+{
+    display: flex;
+	justify-content: space-around;
+	margin-top: 130px;
+}
+
+.tableau
+{
+    display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+
+.liste_equipes
+{
+    margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 5px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.description_joueur
+{
+    max-width: 340px;	/* 33% */
+	min-height:  200px;
+
+	color: #bbbbbb;
+	background-color : #142b5de0;
+
+	padding: 10px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/*overflow: auto;*/
+
+	border: none;
+	border-radius: 10px;
+	box-shadow: 6px 6px 3px black
+}
+
+.liste_matchs
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 5px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.Titre{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
